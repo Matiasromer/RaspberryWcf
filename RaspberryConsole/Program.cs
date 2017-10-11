@@ -11,7 +11,7 @@ namespace RaspberryConsole
     class Program
     {
             
-        private const int Port = 22;
+        private const int Port = 7000;
         static void Main(string[] args)
         {
             using (UdpClient socket = new UdpClient(new IPEndPoint(IPAddress.Any, Port)))
